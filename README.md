@@ -1,7 +1,5 @@
 # KNN
 
-Here's the complete, copyable README.md file with all the content and image references:
-
 ```markdown
 # KNN Classifier for Iris Dataset
 
@@ -29,8 +27,10 @@ train_scores, val_scores = validation_curve(
     scoring="f1_weighted"
 )
 ```
+![Validation Curve](Screenshot%2025-06-03%173139.png)
 
-![Validation Curve](Screenshot%202025-06-03%20180802.png)
+
+![Decision Boundary](Screenshot%202025-06-03%20180802.png)
 
 ## Decision Boundary Visualization
 
